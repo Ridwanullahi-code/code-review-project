@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    background:linear-gradient(0deg,rgba(105, 106, 161, 0.63),rgba(105, 106, 161, 0.527)),url(../image/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.welcome {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+}
+.welcome h2 {
+    font-size: 30px;
+}
+form{
+    color: white;
+    background-color: rgb(45,45,78);
+    width: 700px;
+   margin: 0  auto;
+   padding:60px;
+   border: 1px solid rgb(45,45,78);
+   border-radius: 6px;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+form div{
+    margin-bottom: 20px;
+}
+form .input-form input {
+    width: 660px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+form .input-form label{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+select {
+    width: 670px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+.radio h3,input,.dropdown h3, select{
+    margin-bottom: 20px;
+}
+.favorite h3,select{
+    margin-bottom: 20px;
+}
+.recommend h3,input{
+    margin-bottom: 20px;
+}
+.comment h3{
+    margin-bottom: 20px;
+}
+.submit button{
+    background-color: rgb(55,175,101);
+    padding: 14px;
+    width: 670px;
+    color: white;
+    border: 1px solid rgb(55,175,101);
+    
+}
